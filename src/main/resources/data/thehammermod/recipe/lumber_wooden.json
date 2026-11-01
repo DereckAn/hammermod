@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "Xs ",
+    " # "
+  ],
+  "key": {
+    "#": "thehammermod:handle_wooden",
+    "X": "#minecraft:logs",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "thehammermod:lumber_wooden"
+  },
+  "category": "equipment"
+}

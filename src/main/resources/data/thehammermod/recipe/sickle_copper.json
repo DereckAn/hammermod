@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    " s ",
+    " # "
+  ],
+  "key": {
+    "#": "thehammermod:handle_copper",
+    "X": "minecraft:copper_ingot",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "thehammermod:sickle_copper"
+  },
+  "category": "equipment"
+}

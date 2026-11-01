@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thehammermod:hammer_wooden",
+    "thehammermod:hammer_stone",
+    "thehammermod:hammer_golden",
+    "thehammermod:hammer_iron",
+    "thehammermod:hammer_diamond",
+    "thehammermod:hammer_netherite",
+    "thehammermod:hammer_copper"
+  ]
+}

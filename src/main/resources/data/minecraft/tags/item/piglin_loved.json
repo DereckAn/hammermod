@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thehammermod:hammer_golden",
+    "thehammermod:excavator_golden",
+    "thehammermod:lumber_golden",
+    "thehammermod:sickle_golden",
+    "thehammermod:paxel_golden"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XsX",
+    " # "
+  ],
+  "key": {
+    "#": "thehammermod:handle_diamond",
+    "X": "minecraft:diamond",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "thehammermod:hammer_diamond"
+  },
+  "category": "equipment"
+}

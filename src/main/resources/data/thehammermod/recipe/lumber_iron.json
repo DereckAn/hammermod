@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "Xs ",
+    " # "
+  ],
+  "key": {
+    "#": "thehammermod:handle_iron",
+    "X": "minecraft:iron_ingot",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "thehammermod:lumber_iron"
+  },
+  "category": "equipment"
+}

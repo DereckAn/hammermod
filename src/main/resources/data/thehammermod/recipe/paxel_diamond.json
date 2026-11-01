@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W",
+    "L "
+  ],
+  "key": {
+    "#": "thehammermod:hammer_diamond",
+    "W": "thehammermod:lumber_diamond",
+    "L": "thehammermod:excavator_diamond"
+  },
+  "result": {
+    "id": "thehammermod:paxel_diamond"
+  },
+  "category": "equipment"
+}

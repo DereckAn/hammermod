@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thehammermod:excavator_wooden",
+    "thehammermod:excavator_stone",
+    "thehammermod:excavator_golden",
+    "thehammermod:excavator_iron",
+    "thehammermod:excavator_diamond",
+    "thehammermod:excavator_netherite",
+    "thehammermod:excavator_copper"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#thehammermod:hammers",
+    "#thehammermod:excavators",
+    "#thehammermod:lumber_axes",
+    "#thehammermod:sickles",
+    "#thehammermod:paxels"
+  ]
+}

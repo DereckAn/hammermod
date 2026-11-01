@@ -1,0 +1,101 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "id": "thehammermod:excavator_copper"
+    },
+    "title": {
+      "translate": "advancements.excavator.title"
+    },
+    "description": {
+      "translate": "advancements.excavator.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ewood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:excavator_wooden"
+          }
+        ]
+      }
+    },
+    "estone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:excavator_stone"
+          }
+        ]
+      }
+    },
+    "egold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:excavator_golden"
+          }
+        ]
+      }
+    },
+    "eiron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:excavator_iron"
+          }
+        ]
+      }
+    },
+    "ediamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:excavator_diamond"
+          }
+        ]
+      }
+    },
+    "erite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:excavator_netherite"
+          }
+        ]
+      }
+    },
+    "ecop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:excavator_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ewood",
+      "estone",
+      "egold",
+      "eiron",
+      "ediamond",
+      "erite",
+      "ecop"
+    ]
+  ]
+}

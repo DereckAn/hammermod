@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thehammermod:paxel_wooden",
+    "thehammermod:paxel_stone",
+    "thehammermod:paxel_golden",
+    "thehammermod:paxel_iron",
+    "thehammermod:paxel_diamond",
+    "thehammermod:paxel_netherite",
+    "thehammermod:paxel_copper"
+  ]
+}

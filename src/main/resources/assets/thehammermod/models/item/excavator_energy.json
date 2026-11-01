@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thehammermod:item/excavator_energy"
+  }
+}

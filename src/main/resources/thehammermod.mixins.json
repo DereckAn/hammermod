@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "wallywhip.thehammermod.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "BlockMixin"
+  ],
+  "client": [
+    "client.BlockTransformerMixin",
+    "client.MouseHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:copper_ores",
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore"
+  ]
+}

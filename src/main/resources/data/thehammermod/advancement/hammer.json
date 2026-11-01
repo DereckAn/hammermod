@@ -1,0 +1,101 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "id": "thehammermod:hammer_copper"
+    },
+    "title": {
+      "translate": "advancements.hammer.title"
+    },
+    "description": {
+      "translate": "advancements.hammer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hwood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:hammer_wooden"
+          }
+        ]
+      }
+    },
+    "hstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:hammer_stone"
+          }
+        ]
+      }
+    },
+    "hgold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:hammer_golden"
+          }
+        ]
+      }
+    },
+    "hiron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:hammer_iron"
+          }
+        ]
+      }
+    },
+    "hdiamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:hammer_diamond"
+          }
+        ]
+      }
+    },
+    "hrite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:hammer_netherite"
+          }
+        ]
+      }
+    },
+    "hcop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:hammer_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hwood",
+      "hstone",
+      "hgold",
+      "hiron",
+      "hdiamond",
+      "hrite",
+      "hcop"
+    ]
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "id": "thehammermod:lumber_copper"
+    },
+    "title": {
+      "translate": "advancements.lumber.title"
+    },
+    "description": {
+      "translate": "advancements.lumber.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lwood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:lumber_wooden"
+          }
+        ]
+      }
+    },
+    "lstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:lumber_stone"
+          }
+        ]
+      }
+    },
+    "lgold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:lumber_golden"
+          }
+        ]
+      }
+    },
+    "liron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:lumber_iron"
+          }
+        ]
+      }
+    },
+    "ldiamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:lumber_diamond"
+          }
+        ]
+      }
+    },
+    "lrite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:lumber_netherite"
+          }
+        ]
+      }
+    },
+    "lcop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:lumber_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lwood",
+      "lstone",
+      "lgold",
+      "liron",
+      "ldiamond",
+      "lrite",
+      "lcop"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "thehammermod:sickle_diamond",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "thehammermod:sickle_netherite"
+  }
+}

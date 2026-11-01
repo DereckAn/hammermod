@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "thehammermod",
+  "version": "${version}",
+  "name": "The Hammer Mod",
+  "description": "AOE Hammers and Tools (unofficial 26.3 port for personal use)",
+  "authors": ["Wally Whip"],
+  "license": "All Rights Reserved",
+  "icon": "TheHammerMod.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["wallywhip.thehammermod.TheHammerMod"],
+    "client": ["wallywhip.thehammermod.client.TheHammerModClient"],
+    "modmenu": ["wallywhip.thehammermod.compat.ModMenuCompat"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "fabric-api": "*",
+    "minecraft": "26.3"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  },
+  "mixins": ["thehammermod.mixins.json"]
+}

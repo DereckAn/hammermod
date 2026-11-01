@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " s ",
+    " # "
+  ],
+  "key": {
+    "#": "thehammermod:handle_golden",
+    "X": "minecraft:gold_ingot",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "thehammermod:excavator_golden"
+  },
+  "category": "equipment"
+}

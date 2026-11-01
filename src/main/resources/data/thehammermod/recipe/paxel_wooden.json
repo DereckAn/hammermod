@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W",
+    "L "
+  ],
+  "key": {
+    "#": "thehammermod:hammer_wooden",
+    "W": "thehammermod:lumber_wooden",
+    "L": "thehammermod:excavator_wooden"
+  },
+  "result": {
+    "id": "thehammermod:paxel_wooden"
+  },
+  "category": "equipment"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XsX",
+    " # "
+  ],
+  "key": {
+    "#": "thehammermod:handle_stone",
+    "X": "minecraft:cobblestone",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "thehammermod:hammer_stone"
+  },
+  "category": "equipment"
+}

@@ -1,0 +1,101 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "id": "thehammermod:sickle_copper"
+    },
+    "title": {
+      "translate": "advancements.sickle.title"
+    },
+    "description": {
+      "translate": "advancements.sickle.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "swood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:sickle_wooden"
+          }
+        ]
+      }
+    },
+    "sstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:sickle_stone"
+          }
+        ]
+      }
+    },
+    "sgold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:sickle_golden"
+          }
+        ]
+      }
+    },
+    "siron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:sickle_iron"
+          }
+        ]
+      }
+    },
+    "sdiamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:sickle_diamond"
+          }
+        ]
+      }
+    },
+    "srite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:sickle_netherite"
+          }
+        ]
+      }
+    },
+    "scop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "thehammermod:sickle_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "swood",
+      "sstone",
+      "sgold",
+      "siron",
+      "sdiamond",
+      "srite",
+      "scop"
+    ]
+  ]
+}

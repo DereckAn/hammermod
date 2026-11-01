@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "thehammermod:lumber_diamond",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "thehammermod:lumber_netherite"
+  }
+}

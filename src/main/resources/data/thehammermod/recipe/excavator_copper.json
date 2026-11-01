@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " s ",
+    " # "
+  ],
+  "key": {
+    "#": "thehammermod:handle_copper",
+    "X": "minecraft:copper_ingot",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "thehammermod:excavator_copper"
+  },
+  "category": "equipment"
+}

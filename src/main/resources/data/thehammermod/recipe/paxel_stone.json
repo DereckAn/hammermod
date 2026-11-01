@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W",
+    "L "
+  ],
+  "key": {
+    "#": "thehammermod:hammer_stone",
+    "W": "thehammermod:lumber_stone",
+    "L": "thehammermod:excavator_stone"
+  },
+  "result": {
+    "id": "thehammermod:paxel_stone"
+  },
+  "category": "equipment"
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thehammermod:sickle_wooden",
+    "thehammermod:sickle_stone",
+    "thehammermod:sickle_golden",
+    "thehammermod:sickle_iron",
+    "thehammermod:sickle_diamond",
+    "thehammermod:sickle_netherite",
+    "thehammermod:sickle_copper"
+  ]
+}

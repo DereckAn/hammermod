@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX ",
+    "Xs ",
+    " # "
+  ],
+  "key": {
+    "#": "thehammermod:handle_golden",
+    "X": "minecraft:gold_ingot",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "thehammermod:lumber_golden"
+  },
+  "category": "equipment"
+}
